@@ -1,0 +1,11 @@
+GET http://localhost:5000/vehicle/1
+
+POST http://localhost:5000/vehicle  HTTP/1.1
+content-type: application/json
+
+{
+  "vin": "1",
+  "year": "2020",
+  "make": "BMW",
+  "model": "330i"
+}
